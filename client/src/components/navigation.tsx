@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import { useAppStore } from "@/lib/store";
-import logoPath from "@assets/00004_1755739132526.png";
+import logoPath from "@assets/00004.png";
 
 export function Navigation() {
   const [location] = useLocation();
@@ -27,7 +27,7 @@ export function Navigation() {
           {/* Logo */}
           <Link href="/" data-testid="link-home">
             <div className="flex items-center cursor-pointer">
-              <img src={logoPath} alt="Sahaay Logo" className="h-8 w-auto" />
+              <img src={logoPath} alt="Sahaay Logo" className="h-12 w-auto" />
             </div>
           </Link>
 
